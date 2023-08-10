@@ -1,0 +1,15 @@
+<?php
+session_start();
+$user= "admin";
+if(isset($_SESSION['l_username']) || $user= "admin"){
+    session_destroy();
+    // setcookie('emailcookie','',time()-86400);
+    // setcookie('passcookie','',time()-86400);
+    echo "<script>location.href = 'login.php' </script>";  
+}
+else{
+    echo "<script>alert('dont access from URL!! Login First') </script>";
+    echo "<script>location.href = 'login.php' </script>";
+}
+
+?>

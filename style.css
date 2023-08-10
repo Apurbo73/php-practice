@@ -1,0 +1,149 @@
+.p-style {
+    background-color: #4E423D;
+    color: aliceblue;
+}
+
+.nav-bg {
+    background-color: #FFFFFF;
+}
+
+li {
+    font-weight: 700;
+}
+
+.secondNav button {
+    color: #4E423D;
+    font-weight: 600;
+}
+.introduction {
+
+    min-height: 50vh;
+    background-color: #13245a;
+    /* overflow: hidden; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    position:absolute;
+    width: 100%;
+    left: 38%;
+
+}
+/* span{
+    color: rgb(226, 215, 215);
+    font-size: 3.5vh;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+.multiText{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.shop img {
+    height: 190px;
+    width: 170px;
+
+}
+
+.cardDesign {
+    margin-top: 5px;
+}
+
+.shop p {
+    color: #4e423d;
+    font-weight: 600;
+}
+
+.banner {
+    background-color: #DA6F39;
+    height: 50vh;
+    color: #FFFFFF;
+}
+
+.banner p {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner img {
+    height: 30vh;
+    width: 390px;
+}
+
+.cardDesign img {
+    margin: 20px;
+}
+
+.cardDesign img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.img-design {
+    height: 20px;
+    width: 500px;
+}
+
+.category p {
+    color: #4e423d;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.wrapper{
+    display: flex;
+  
+}
+.exclusive img {
+    width: 320px;
+    height: 280px;
+
+}
+
+.image{
+    position: relative;
+}
+/* img{
+    width: 100%;
+    display: block;
+    margin: auto;
+} */
+.content{
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+
+
+.content p{
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+
+.footerDesign {
+    background-color: #F5F3EB;
+}
+
+.footerDesign h6 {
+    color: #4e423d;
+}
